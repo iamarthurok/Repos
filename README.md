@@ -12,6 +12,11 @@ Below you will find files with my projects
 [Entity Framework App](https://github.com/arturrrom/Repos/tree/master/CodeFirstBasicStudent/)  
 The problem addressed in this solution pertains to the management of a database in an application that employs the Code-First approach with Entity Framework Core. Specifically, the solution focuses on the scenario where it is desirable to remove the existing database before the application runs.
 Overall, this solution provides a convenient mechanism to ensure a clean slate for the database each time the application is run, facilitating experimentation and learning in a development environment but it can be simple change to **dynamically adding new records to existing database**
+## Car Insurance Policy Using ASP.NET MVC Entity Framework
+[Car Insurance App](https://github.com/arturrrom/Repos/tree/master/CarInsurance/)  
+This application is designed to help users manage their car insurance policies. You can create new insurance entries, edit existing ones, and delete them as needed.
+Additionally, there is an admin view available to site administrators, which displays all issued insurance quotes along with user details.
+
 
 ## Technical skills gained
 **1. Console Input/Output** The code utilizes Console.WriteLine and Console.ReadLine to interact with the user, prompting them for input and displaying output.  
@@ -28,13 +33,24 @@ Overall, this solution provides a convenient mechanism to ensure a clean slate f
 **12. Modularity** Classes and methods allow for the modularization of code, making it easier to manage and maintain.  
 **13. Encapsulation** Classes can hide internal details and expose only specific methods and properties, improving code cleanliness and security.  
 **14. Abstraction** Classes and methods enable programmers to create abstractions, simplifying complex systems by focusing on essential aspects.  
-**15. Entity Framework Code-First Approach** This approach is not typically recommended in a production environment, but it can be useful for educational purposes or when prototyping.
+
+**15. Entity Framework Code-First Approach**  
+This approach is not typically recommended in a production environment, but it can be useful for educational purposes or when prototyping.
 The solution can be implemented in an application that examines how much time students need to perform specific activities. We know in advance how long each activity should last. Students are assigned to activities for which the exact, actual start and end dates are specified.  
 
-## Autorzy
+**16. Entity Framework (EF)**  
+- Understanding ORM (Object-Relational Mapping) concepts.  
+- Creating and managing database models using EF Code First or Database First approaches.  
+- Performing CRUD (Create, Read, Update, Delete) operations using EF.  
 
-Artur Malkiewicz
+**17. ASP.NET MVC**  
+- Understanding MVC architectural pattern (Model, View, Controller).  
+- Creating and managing controllers to handle user requests.  
+- Working with views (Razor syntax) for rendering UI and presenting data to users.  
+- Implementing data validation using model annotations and ModelState.  
+
+## Autorzy
+[Artur Malkiewicz](mailto:arturrom007@gmail.com)
 
 ## Licencja
-
 Opensource
